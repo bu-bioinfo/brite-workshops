@@ -1,0 +1,8 @@
+name: local_dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ruby=3.2
+  - compilers
+  - conda-lock

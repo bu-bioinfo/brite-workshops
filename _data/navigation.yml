@@ -1,0 +1,15 @@
+sidebar:
+  - title: "Workshops"
+    children:
+      - title: "Overview"
+        url: "/workshops/"
+      - title: "Workshop 1"
+        url: "/workshops/workshop-01/"
+      # Add more workshops here
+
+  - title: "Resources"
+    children:
+      - title: "Setup Guide"
+        url: "/setup/"
+      - title: "GitHub"
+        url: "https://github.com/your-org/workshops"

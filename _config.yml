@@ -1,0 +1,51 @@
+title: Computational Workshops
+description: A series of hands-on computational workshops
+baseurl: "/workshops" # change to your repo name
+url: "https://your-org.github.io" # change to your GitHub Pages URL
+
+theme: minimal-mistakes-jekyll
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Collections
+collections:
+  workshops:
+    output: true
+    permalink: /workshops/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "sidebar"
+      classes: wide
+  - scope:
+      path: ""
+      type: workshops
+    values:
+      layout: single
+      sidebar:
+        nav: "sidebar"
+      classes: wide
+      toc: true
+      toc_sticky: true
+
+timezone: America/New_York
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - .gitignore
+  - Dockerfile
