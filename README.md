@@ -4,12 +4,33 @@ Source for the workshop site, built with Jekyll + Minimal Mistakes and deployed 
 
 ## Local development
 
+### Environment setup
+
+Requires conda. Create and activate the environment:
+
 ```bash
+conda env create -f environment.yml
+conda activate local_dev
 bundle install
+```
+
+Then serve the site locally:
+
+```bash
 bundle exec jekyll serve
 ```
 
 Site runs at `http://localhost:4000/workshops`.
+
+### Reproducing the exact environment
+
+A `conda-lock.yml` is provided for fully pinned, cross-platform reproducibility:
+
+```bash
+conda lock install conda-lock.yml
+conda activate local_dev
+bundle install
+```
 
 ## Adding a workshop
 
