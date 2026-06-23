@@ -1,38 +1,26 @@
 ---
-title: "Workshop 1 — Title Here"
+title: "Workshop 1 — Large Language Models
 ---
 
-## Overview
+# Purpose
+To develop a conceptual knowledge of how large language models work and how to 
+use them responsibly. The ability to evaluate AI tools in a rigorous and methodical
+manner will be increasingly important in bioinformatics as the focus shifts from
+writing code to understanding it and implementing it.
 
-Brief description of what this workshop covers.
+# Skills
+- Understand how LLMs generate output and how they can "hallucinate"
+- Evaluating AI generated content critically
+- Using the AI Assessment Scale Framework to be transparent about how and when
+to use AI
 
-## Learning Objectives
+# Knowledge
+How LLMs work from a conceptual standpoint and how they are trained, what can and
+can't they do reliably, and how to engineer your prompts effectively to evaluate
+their output
 
-- Objective 1
-- Objective 2
-- Objective 3
+# Tasks
 
-## Prerequisites
 
-What participants should know or have installed beforehand.
 
-## Materials
-
-- Slides: [link]
-- Data: [link]
-
-## Exercises
-
-### Exercise 1
-
-Instructions here.
-
-```bash
-# example code block
-echo "hello"
-```
-
-## Further Reading
-
-- Reference 1
-- Reference 2
+# Criteria for Success
