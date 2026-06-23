@@ -5,7 +5,7 @@ title: "Computational Workshops"
 
 > **AI Attestation**
 >
-> This syllabus was developed with AI assistance at Levels 2 and 3 of the AI
+> These materials were developed with AI assistance at Levels 2 and 3 of the AI
 > Assessment Scale (Perkins, Furze, Roe & MacVaugh, 2024). AI tools were used
 > for brainstorming, outlining, and suggestions; all content was critically
 > reviewed, revised, and approved by the authors first. The structure, pedagogical
